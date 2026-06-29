@@ -39,7 +39,7 @@ export function Hero() {
 
   return (
     <section id="top" ref={ref} className="relative">
-      <div className="mx-auto w-full max-w-6xl px-5 pt-32 sm:px-8 sm:pt-40">
+      <div className="mx-auto w-full max-w-6xl px-5 pt-32 pb-4 sm:px-8 sm:pt-40 sm:pb-6">
         {/* Spec / title-block bar */}
         <motion.div
           initial={{ opacity: 0 }}
